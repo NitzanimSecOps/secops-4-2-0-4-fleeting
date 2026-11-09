@@ -8,7 +8,7 @@ from ethernet import Ethernet
 
 class Switch:
     def __init__(self, port_names: list[str]):
-            pass
-    
-        def process_frame(self, frame: bytes, incoming_port: Port) -> None:
-            pass
+        pass
+
+    def process_frame(self, frame: bytes, incoming_port: Port) -> None:
+        pass
